@@ -1,0 +1,19 @@
+{
+  "name": "Core",
+  "description": "This is the core module for Aometry",
+  "author": "Finneh",
+  "repo_url": "https://github.com/aometry/repo.git",
+  "install_msg": "",
+  "commands": [
+    "reload",
+    "emit",
+    "sentiment",
+    "about",
+    "invite",
+    "listguilds",
+    "mydata",
+    "ping",
+    "server",
+    "user"
+  ]
+}
