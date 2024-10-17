@@ -1,0 +1,10 @@
+{
+  "name": "Moderation",
+  "description": "This is the 1st-party moderation module for Aometry",
+  "author": "Finneh",
+  "repo_url": "https://github.com/aometry/repo.git",
+  "install_msg": "",
+  "commands": [
+    "timeout"
+  ]
+}
