@@ -20,6 +20,11 @@
       "name": "ticketing",
       "path": "ticketing",
       "description": "Standard ticketing system for Aometry"
+    },
+    {
+      "name": "role-sets",
+      "path": "role-sets",
+      "description": "Automated role management (Grouped and Unique sets)"
     }
   ]
 }

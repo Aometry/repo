@@ -1,0 +1,11 @@
+{
+  "name": "role-sets",
+  "version": "1.0.0",
+  "description": "Automated role management (Grouped and Unique sets)",
+  "commands": [
+    { "name": "roles", "path": "commands/roles.ts", "description": "Manage role groups and uniqueness" }
+  ],
+  "events": [
+    { "name": "guildMemberUpdate", "path": "events/guildMemberUpdate.ts", "type": "GuildMemberUpdate" }
+  ]
+}
