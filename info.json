@@ -1,11 +1,25 @@
 {
-  "name": "Aometry",
-  "description": "This is the 1st party Aometry repository",
+  "name": "Aometry/repo",
+  "version": "1.0.0",
+  "description": "Official 1st party Aometry modules repository",
   "author": "Finneh",
-  "url": "https://github.com/aometry/repo.git",
+  "url": "https://github.com/Aometry/repo.git",
   "install_msg": "This repository comes preinstalled on all Aometry installations.",
   "modules": [
-    "core",
-    "moderation"
+    {
+      "name": "core",
+      "path": "core",
+      "description": "Core Aometry functionalities"
+    },
+    {
+      "name": "moderation",
+      "path": "moderation",
+      "description": "Moderation tools for Aometry"
+    },
+    {
+      "name": "ticketing",
+      "path": "ticketing",
+      "description": "Standard ticketing system for Aometry"
+    }
   ]
 }

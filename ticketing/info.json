@@ -1,0 +1,19 @@
+{
+  "name": "ticketing",
+  "version": "1.0.0",
+  "description": "Standard ticketing system for Aometry",
+  "commands": [
+    {
+      "name": "setup-tickets",
+      "path": "commands/setupTickets.ts",
+      "description": "Creates a standing ticket panel in the current channel"
+    }
+  ],
+  "events": [
+    {
+      "name": "interactionCreate",
+      "path": "events/interactionCreate.ts",
+      "type": "InteractionCreate"
+    }
+  ]
+}
